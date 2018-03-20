@@ -11,7 +11,8 @@ output:
   tufte::tufte_book:
     citation_package: natbib
     latex_engine: xelatex
-bibliography: /home/mariachi/Dropbox/Working/library.bib
+# bibliography: /home/mariachi/Dropbox/Working/library.bib
+bibliography: library.bib
 link-citations: yes
 ---
 
@@ -24,7 +25,7 @@ options(htmltools.dir.version = FALSE)
 
 # A critical safety system
 
-Life is fragile and under constant attack. Over millions of years, Nature has developed a series of systems to increase its resilience, *pain* being one of the most critical. Although always unpleasant, pain is what directs our attention to injuries, preventing long-term **handicaps** and even death. Without it we would happily burn our hands in boiling water, or walk around with a broken leg. Pain, then, is a fundamental part of life.
+Life is fragile and under constant attack. Over millions of years, Nature has developed a series of systems to increase its resilience, *pain* being one of the most critical. Although always unpleasant, pain is what directs our attention to injuries, preventing long-term **handicaps** and even death. Without it we would happily burn our hands in boiling water, or walk around with a broken leg. Pain, then, is a fundamental part of life.^[[Congenital analgesia](https://en.wikipedia.org/wiki/Congenital_insensitivity_to_pain) is a condition in which a person cannot feel pain. Understanding how these people live their daily lives, may help you develop an appreciation for how important pain is.]
 
 ```{marginfigure}
 ![](figs/IASP_logo.png)
@@ -51,14 +52,59 @@ The IASP definition, while important for a standardized approach to pain, does n
 | Therapeutic objective      | no pain                    | pain management, better control                 |
 | Psychological consequences | hope the therapy will work | resignation, helplessness                       |
 
-The current guidelines define *chronic* as "pain that persists or recurs for longer than 3 months".^[you can explore more at the [ICD-11 website](https://goo.gl/AX9GMr)] As of 2006, the prevalence of chronic pain in Europe was around 20% [@Breivik2006], with similarly high figures for the rest of world [@Elzahaf2012].
 
-Even more importantly, data from the Global Burden of Disease Study 2016 [(GBD 2016)](http://www.healthdata.org/germany) shows low back and neck pain is the *number one cause* of disability in Germany.
+## Define chronic pain
 
+The latest guidelines define *chronic* as "pain that persists or recurs for longer than 3 months".^[you can explore more at the [ICD-11 website](https://goo.gl/AX9GMr)] These patients have commonly been to multiple doctors, tried various therapies without success and, most importantly, feel the pain has a substantial negative impact on their daily lives. It is thus also usual for these patients to present negative psychological symptoms, such as depression,  and feelings of helplessness and uselessness. All of this can create a "snowball effect", with the patient avoiding more and more activities, and becoming more and more isolated and focused on her or his negative thoughts.
+
+It is critical to understand that this is not a rare situation. As of 2006, the prevalence of chronic pain in Europe was around 20% [@Breivik2006], with similarly high figures for the rest of world [@Elzahaf2012]. Even more importantly, data from 2016^[Global Burden of Disease Study 2016 [(GBD 2016)](http://www.healthdata.org/germany)] shows low back and neck pain is the *number one cause* of disability in Germany, meaning the likelihood of meeting one such patient is high.
+
+```{marginfigure}
 ![](figs/g_disab.png)
+```
 
 
-# Different origins, same unpleasantness
+
+# Pain pathways
+
+We can boil the *somatosensory system* down to five critical components: a *nociceptor* (generates the signal), a *peripheral neve* (conducts the signal to the spinal cord), the *spinal cord* (activates reflexes, modulates pain and further sends information to the thalamus), the *thalamus* (integration of sensory discriminative, affective motivational and cognitive-evaluative components) and finally the *somatosensory cortex* (stimulus localization).
+
+![](figs/gray_somatosens.png)
+
+
+There are multiple types of nociceptors:
+
+| Fasern | Charakteristika | Geschwindigkeit |
+|---------|-----------------------|------------------------|
+| Aα/Aβ | myelinisiert | 40--80 m/s (schnell) |
+|  | großer Durchmesser |  |
+|  | nicht nozizeptiv |  |
+|  | leichte Berührung |  |
+| Aδ I/II | leicht myelinisiert | 2,5--36 m/s (schnell) |
+|  | mittlerer Durchmesser |  |
+|  | nozizeptiv |  |
+| C | nicht myelinisiert | 0,5--1,7 m/s (langsam) |
+|  | kleiner Durchmesser |  |
+|  | nozizeptiv |  |
+|  | polymodal |  |
+
+
+![](figs/nociceptors.png)
+
+
+There are different types of pain, depending on its (suspected) origin.
+
+  - Psychogenic pain: based on psychological conflicts, without any organic cause. A common example is a child with a strong belly ache, after the parents had a big fight. This pain is still *real*, in the sense that the patient does indeed suffer and is in distress. A doctor should still make a thorough diagnostic, to make sure an organic cause is not present.
+  
+  - Neuropathic pain: has its origin in damage or diseases of the somatosensory nervous system. Common in diabetes patients, multiple sclerosis and after a stroke. Phantom pain syndrom is a special case of this type of pain. Patients may report pain from otherwise non-painful stimuli ([*allodynia*](https://www.iasp-pain.org/Education/Content.aspx?ItemNumber=1698#Allodynia), e.g. a kiss on the cheek), describing it as an electric shock, a needle sting or a burning sensation that travels along the path of the nerve. Up to 7% to 8% of the European population is affected, and in 5% of persons it may be severe [@Bouhassira2008].
+  
+  - Nociceptive pain: the most common type. This is pain that emerges from activation of a *nociceptor*, i.e. pain receptor. We have all experienced this after trying to impress someone with our balance skills, only to fail miserably. Exposure to extreme heat or cold will also activate these receptors. Sensory nerve fibres stimulated beyond harmful intensity send a signal to the spinal cord, and then to the brain, which we feel as pain.
+  
+![*From http://www.scientificanimations.com*](figs/nociceptive_pain.jpg)  
+  
+  - Myofascial pain syndrome: after using a muscle repetitively, or very stressfull situation, it is possible to have some muscle pain or soreness. This can be felt as pressure on sensitive points in your muscles (trigger points), sometimes even in unrelated parts of your body. In some people, this pain can linger and become worse, at which point we talk about a myofascial pain syndrome. [Fibromyalgia](https://www.niams.nih.gov/health-topics/fibromyalgia/advanced) is thought to evolve from this syndrome.
+
+
 
 ![](figs/vas.png)
 
