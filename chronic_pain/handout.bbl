@@ -1,0 +1,25 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Clauw(2014)]{Clauw2014}
+Daniel~J. Clauw.
+\newblock {Fibromyalgia: A clinical review}, apr 2014.
+\newblock ISSN 15383598.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/24737367
+  http://jama.jamanetwork.com/article.aspx?doi=10.1001/jama.2014.3266}.
+
+\bibitem[Flaten(2014)]{Flaten2014}
+Magne~Arve Flaten.
+\newblock {Pain-related negative emotions and placebo analgesia}.
+\newblock \emph{Handbook of Experimental Pharmacology}, 225:\penalty0 81--96,
+  2014.
+\newblock ISSN 18650325.
+\newblock \doi{10.1007/978-3-662-44519-8_5}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/25304527
+  http://link.springer.com/10.1007/978-3-662-44519-8{\_}5}.
+
+\end{thebibliography}

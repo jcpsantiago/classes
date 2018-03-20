@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: handout.aux
+The style file: plainnat.bst
+Database file #1: /home/mariachi/Dropbox/Working/library.bib.bib
+Warning--I didn't find a database entry for "R-rmarkdown"
+Warning--I didn't find a database entry for "R-base"
+You've used 2 entries,
+            2773 wiz_defined-function locations,
+            620 strings with 5469 characters,
+and the built_in function-call counts, 754 in all, are:
+= -- 74
+> -- 20
+< -- 2
++ -- 8
+- -- 6
+* -- 49
+:= -- 124
+add.period$ -- 10
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 2
+cite$ -- 4
+duplicate$ -- 35
+empty$ -- 70
+format.name$ -- 8
+if$ -- 154
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 22
+num.names$ -- 8
+pop$ -- 15
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 27
+stack$ -- 0
+substring$ -- 23
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 22
+warning$ -- 0
+while$ -- 8
+width$ -- 0
+write$ -- 40
+(There were 2 warnings)
